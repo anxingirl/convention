@@ -1,0 +1,48 @@
+name = Jean 
+description = A flexible, recolorable theme with many regions and a responsive, mobile-first layout.
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/jean.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/collapsible-menu.js
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+breakpoints[mobile] = (min-width: 0px)
+breakpoints[narrow] = (min-width: 560px)
+breakpoints[wide] = (min-width: 851px)
+breakpoints[broad] = (min-width: 1024px)
+breakpoints[tv] = only screen and (min-width: 3456px)
+
+; Information added by Drupal.org packaging script on 2014-05-01
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "responsive_bartik"
+datestamp = "1398976128"
+

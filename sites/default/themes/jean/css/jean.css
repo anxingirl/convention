@@ -1,0 +1,31 @@
+#main-menu-links.front_navigation{
+    font-size: 1.6em;
+}
+#main-menu-links.front_navigation {
+    text-align:center;
+    width:100%;
+}
+
+#main-menu-links.front_navigation li {
+    border-radius: 8px;    
+    padding:0.2em 0.3em;
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    margin:5px;
+    background: none repeat scroll 0 0 #0071B3; 
+    float:none!important;
+    display:inline-block;
+}
+#main-menu-links.front_navigation li a {
+    color:#fffeff;
+    background: none; 
+    float:none!important;
+    padding:0em;
+}
+
+#registration-form label{
+    display:inline-block;
+    width: 80px;
+    text-align: right;
+}
